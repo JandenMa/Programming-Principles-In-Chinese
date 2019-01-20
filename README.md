@@ -22,33 +22,33 @@
 
 - [KISS法则](#KISS法则)
 - [YAGNI法则](#YAGNI法则)
-- [尽可能做可运行的最简单的事](#Do the simplest thing that possibly work（尽可能做可运行的最简单的事）)
-- [关注点分离](#Separation of Concerns（SoC，关注点分离）)
-- [遵循不写重复代码](#Keep Things DRY（遵循不写重复代码）)
-- [作为代码的维护者](#Code For The Maintainer（作为代码的维护者）)
-- [避免过早优化](#Avoid Premature Optimization（避免过早优化）)
-- [童子军规则](#Boy-Scout Rule（童子军规则）)
+- [尽可能做可运行的最简单的事](#尽可能做可运行的最简单的事)
+- [关注点分离](#关注点分离)
+- [遵循不写重复代码](#遵循不写重复代码)
+- [作为代码的维护者](#作为代码的维护者)
+- [避免过早优化](#避免过早优化)
+- [童子军规则](#童子军规则)
 
 #### 模块/类之间
 
-- [低耦合](#Minimise Coupling（低耦合）)
-- [迪米特法则](#Law of Demeter（LoD，迪米特法则）)
-- [优先使用组合而非继承](#Composition Over Inheritance（优先使用组合而非继承）)
-- [正交性](#Orthogonality（正交性）)
-- [健壮性法则](#Robustness Principle（健壮性法则）)
-- [控制反转](#Inversion of Control（IoC，控制反转）)
+- [低耦合](#低耦合)
+- [迪米特法则](#迪米特法则)
+- [优先使用组合而非继承](#优先使用组合而非继承)
+- [正交性](#正交性)
+- [健壮性法则](#健壮性法则)
+- [控制反转](#控制反转)
 
 #### 模块/类
 
-- [高内聚](#Maximise Cohesion（高内聚）)
-- [里氏替换原则](#Liskov Substitution Principle（LSP，里氏替换原则）)
-- [开闭原则](#Open/Closed Principle（OCP，开闭原则）)
-- [单一职责原则](#Single Responsibility Principle（SRP，单一职责原则）)
-- [隐藏接口实现细节](#Hide Implementation Details（隐藏接口实现细节）)
-- [柯里定律](#Curly's Law（柯里定律）)
-- [封装经常修改的代码](#Encapsulate What Changes（封装经常修改的代码)
-- [接口隔离原则](#Interface Segregation Principle（接口隔离原则）)
-- [命令查询分离原则](#Command Query Separation（CQS，命令查询分离原则）)
+- [高内聚](#高内聚)
+- [里氏替换原则](#里氏替换原则)
+- [开闭原则](#开闭原则)
+- [单一职责原则](#单一职责原则)
+- [隐藏接口实现细节](#隐藏接口实现细节)
+- [柯里定律](#柯里定律)
+- [封装经常修改的代码](#封装经常修改的代码)
+- [接口隔离原则](#接口隔离原则)
+- [命令查询分离原则](#命令查询分离原则)
 
 ---
 
@@ -98,7 +98,7 @@
 
 
 
-#### Do the simplest thing that possibly work（尽可能做可运行的最简单的事）
+#### 尽可能做可运行的最简单的事
 
 **原因**
 
@@ -118,7 +118,9 @@
 
 
 
-#### Separation of Concerns（SoC，关注点分离）
+#### 关注点分离
+
+*Separation of Concerns, SoC*
 
 关注点分离，是将计算机程序分为不同部分的一种设计原则，这样做可以是每个部分都解决一个单独的问题。举个例子，程序的业务逻辑是一个点，而用户界面又是另一个点。更改用户界面的时候，不应该要求更改业务逻辑，反之亦然。
 
@@ -147,7 +149,9 @@
 
 
 
-#### Keep Things DRY（遵循不写重复代码）
+#### 遵循不写重复代码
+
+*Keep Things DRY——Don't Repeat Yourself*
 
 在系统中，每一块知识点都应该有一个单一的、明确的、权威的表示。
 
@@ -184,7 +188,7 @@
 
 
 
-#### Code For The Maintainer（作为代码的维护者）
+#### 作为代码的维护者
 
 **原因**
 
@@ -209,7 +213,7 @@
 
 
 
-#### Avoid Premature Optimization（避免过早优化）
+#### 避免过早优化
 
 引用 [Donald Knuth](http://en.wikiquote.org/wiki/Donald_Knuth)：
 
@@ -240,7 +244,7 @@
 
 
 
-#### Boy-Scout Rule（童子军规则）
+#### 童子军规则
 
 美国童子军有一个简单的规则，可以适用于我们的职业：“离开营地时让它比你发现它时更干净”。 童子军规则规定我们应该始终保持代码比我们发现的更干净。【这意味着团队中每一个成员都有义务去改善代码】
 
@@ -259,60 +263,72 @@
 
 
 
-#### Minimise Coupling（低耦合）
+#### 低耦合
 
 
 
-#### Law of Demeter（LoD，迪米特法则）
+#### 迪米特法则
+
+*Law of Demeter, LoD*
 
 
 
-#### Composition Over Inheritance（优先使用组合而非继承）
+#### 优先使用组合而非继承
 
 
 
-#### Orthogonality（正交性）
+#### 正交性
 
 
 
-#### Robustness Principle（健壮性法则）
+#### 健壮性法则
 
 
 
-#### Inversion of Control（IoC，控制反转）
+#### 控制反转
+
+*Inversion of Control, IoC*
 
 
 
-#### Maximise Cohesion（高内聚）
+#### 高内聚
 
 
 
-#### Liskov Substitution Principle（LSP，里氏替换原则）
+#### 里氏替换原则
+
+*Liskov Substitution Principle, LSP*
 
 
 
-#### Open/Closed Principle（OCP，开闭原则）
+#### 开闭原则
+
+*Open/Closed Principle, OCP*
 
 
 
-#### Single Responsibility Principle（SRP，单一职责原则）
+#### 单一职责原则
+
+*Single Responsibility Principle, SRP*
 
 
 
-#### Hide Implementation Details（隐藏接口实现细节）
+#### 隐藏接口实现细节
 
 
 
-#### Curly's Law（柯里定律）
+#### 柯里定律
 
 
 
-#### Encapsulate What Changes（封装经常修改的代码）
+#### 封装经常修改的代码
 
 
 
-#### Interface Segregation Principle（接口隔离原则）
+#### 接口隔离原则
 
 
 
-#### Command Query Separation（CQS，命令查询分离原则）
+#### 命令查询分离原则
+
+*Command Query Separation, CQS*
