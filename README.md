@@ -22,33 +22,33 @@
 
 - [KISS法则](#KISS法则)
 - [YAGNI法则](#YAGNI法则)
-- [Do the simplest thing that possibly work（尽可能做可运行的最简单的事）](#Do the simplest thing that possibly work（尽可能做可运行的最简单的事）)
-- [Separation of Concerns（SoC，关注点分离）](#Separation of Concerns（SoC，关注点分离）)
-- [Keep Things DRY（遵循不写重复代码）](#Keep Things DRY（遵循不写重复代码）)
-- [Code For The Maintainer（作为代码的维护者）](#Code For The Maintainer（作为代码的维护者）)
-- [Avoid Premature Optimization（避免过早优化）](#Avoid Premature Optimization（避免过早优化）)
-- [Boy-Scout Rule（童子军规则）](#Boy-Scout Rule（童子军规则）)
+- [尽可能做可运行的最简单的事](#Do the simplest thing that possibly work（尽可能做可运行的最简单的事）)
+- [关注点分离](#Separation of Concerns（SoC，关注点分离）)
+- [遵循不写重复代码](#Keep Things DRY（遵循不写重复代码）)
+- [作为代码的维护者](#Code For The Maintainer（作为代码的维护者）)
+- [避免过早优化](#Avoid Premature Optimization（避免过早优化）)
+- [童子军规则](#Boy-Scout Rule（童子军规则）)
 
 #### 模块/类之间
 
-- [Minimise Coupling（低耦合）](#Minimise Coupling（低耦合）)
-- [Law of Demeter（LoD，迪米特法则）](#Law of Demeter（LoD，迪米特法则）)
-- [Composition Over Inheritance（优先使用组合而非继承）](#Composition Over Inheritance（优先使用组合而非继承）)
-- [Orthogonality（正交性）](#Orthogonality（正交性）)
-- [Robustness Principle（健壮性法则）](#Robustness Principle（健壮性法则）)
-- [Inversion of Control（IoC，控制反转）](#Inversion of Control（IoC，控制反转）)
+- [低耦合](#Minimise Coupling（低耦合）)
+- [迪米特法则](#Law of Demeter（LoD，迪米特法则）)
+- [优先使用组合而非继承](#Composition Over Inheritance（优先使用组合而非继承）)
+- [正交性](#Orthogonality（正交性）)
+- [健壮性法则](#Robustness Principle（健壮性法则）)
+- [控制反转](#Inversion of Control（IoC，控制反转）)
 
 #### 模块/类
 
-- [Maximise Cohesion（高内聚）](#Maximise Cohesion（高内聚）)
-- [Liskov Substitution Principle（LSP，里氏替换原则）](#Liskov Substitution Principle（LSP，里氏替换原则）)
-- [Open/Closed Principle（OCP，开闭原则）](#Open/Closed Principle（OCP，开闭原则）)
-- [Single Responsibility Principle（SRP，单一职责原则）](#Single Responsibility Principle（SRP，单一职责原则）)
-- [Hide Implementation Details（隐藏接口实现细节）](#Hide Implementation Details（隐藏接口实现细节）)
-- [Curly's Law（柯里定律）](#Curly's Law（柯里定律）)
-- [Encapsulate What Changes（封装经常修改的代码）](#Encapsulate What Changes（封装经常修改的代码)
-- [Interface Segregation Principle（接口隔离原则）](#Interface Segregation Principle（接口隔离原则）)
-- [Command Query Separation（CQS，命令查询分离原则）](#Command Query Separation（CQS，命令查询分离原则）)
+- [高内聚](#Maximise Cohesion（高内聚）)
+- [里氏替换原则](#Liskov Substitution Principle（LSP，里氏替换原则）)
+- [开闭原则](#Open/Closed Principle（OCP，开闭原则）)
+- [单一职责原则](#Single Responsibility Principle（SRP，单一职责原则）)
+- [隐藏接口实现细节](#Hide Implementation Details（隐藏接口实现细节）)
+- [柯里定律](#Curly's Law（柯里定律）)
+- [封装经常修改的代码](#Encapsulate What Changes（封装经常修改的代码)
+- [接口隔离原则](#Interface Segregation Principle（接口隔离原则）)
+- [命令查询分离原则](#Command Query Separation（CQS，命令查询分离原则）)
 
 ---
 
